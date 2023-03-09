@@ -2,10 +2,10 @@
 HEADER STYYYYYLING
  */
 
-/* @font-face {
+@font-face {
     font-family: Norse;
     src: url("../public/assets/fonts/Norse.otf");
-} */
+}
 .logo {
 
     position: absolute;
@@ -85,7 +85,7 @@ a {
     font-weight: bold;
     margin: 1rem 0;
     text-align: center;
-    font-family: 'Yatra One', cursive;
+    font-family: Norse;
     color: whitesmoke;
 
 }
@@ -103,7 +103,7 @@ a {
 
 .canvas, html, body{
     height: 100vh !important;
-    font-family: 'Yatra One', cursive;
+    font-family: Norse;
     margin: 0;
 }
 
@@ -132,7 +132,7 @@ h2{
     position: absolute;
     top: 70%;
     right: 10%;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: end;
-    margin-top: 60px;
+    margin-top: 20px;
 }
