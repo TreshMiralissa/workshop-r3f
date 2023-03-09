@@ -4,7 +4,7 @@ HEADER STYYYYYLING
 
 @font-face {
     font-family: Norse;
-    src: url("assets/fonts/Norse.otf");
+    src: url("../public/assets/fonts/Norse.otf");
 }
 .logo {
 
