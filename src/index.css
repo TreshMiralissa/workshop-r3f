@@ -64,7 +64,7 @@ HEADER STYYYYYLING
     width: 100%;
     padding: 2rem 2rem 6rem 2rem;
     z-index: 10;
-    background-color: rgba(220, 16, 165, 0.4);
+    background-color: rgb(12, 41, 21, 0.5);
 }
 
 .content-wrapper {
@@ -86,6 +86,7 @@ a {
     margin: 1rem 0;
     text-align: center;
     font-family: Norse;
+    color: whitesmoke;
 
 }
 
@@ -100,10 +101,6 @@ a {
     height: 2.5rem;
 }
 
-/* .icon:nth-of-type(1) {
-    margin-right: 1.5rem;
-} */
-
 .canvas, html, body{
     height: 100vh !important;
     font-family: Norse;
@@ -117,7 +114,7 @@ body{
 }
 
 .title, .quote{
-    z-index: 999;
+    z-index: 5;
 }
 
 .title{
@@ -127,9 +124,15 @@ body{
     font-size: 3rem;
 }
 
+h2{
+    font-size: 2.5rem;
+}
+
 .quote{
     position: absolute;
     top: 70%;
     right: 10%;
     font-size: 2rem;
+    text-align: end;
+    margin-top: 20px;
 }

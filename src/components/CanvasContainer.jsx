@@ -9,15 +9,15 @@ export default function CanvasContainer({count = 23, depth = 65, z}){
     return(
         <>
         <div className="title">
-            <h1>Legendary</h1>
-            <h2>Landing Page</h2>
+            <h1>Lord of the Rings</h1>
+            <h2>Welcome to the Middle Earth</h2>
         </div>
         <div className="quote">
-            <p>Welcome to the Middle Earth</p>
+            <p><q>All we have to decide is what to do with the time that is given us.</q><br/><strong>- Gandalf -</strong></p>
         </div>
         <Canvas className="canvas" camera={{near: 0.01, far:100, fov:24}} dpr={1}>
             <Suspense fallback={null}>
-                <color attach ={"background"} args={["#a3e571"]}/>
+                <color attach ={"background"} args={["#afb77a"]}/>
                 <ambientLight intensity={0.5}/>
                 {Array.from({length:count}, (_, i) =>(
                     <Model key={i} z={-i / count * depth}/>
