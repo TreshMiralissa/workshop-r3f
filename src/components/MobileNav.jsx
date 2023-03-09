@@ -39,7 +39,7 @@ const MobileNav = ({ open }) => {
                 className="icon-wrapper"
                 style={{ transform: transformFoot }}
             >
-              <a href={"https://github.com/TreshMiralissa"}><IoLogoGithub className="icon" color={"#f3edd8"}/></a>
+              <a href={"https://github.com/TreshMiralissa"} target= "_blank"><IoLogoGithub className="icon" color={"#f3edd8"}/></a>
             </animated.div>
           </div>
         </animated.nav>
